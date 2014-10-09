@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="part-3" />
+		<Option pch_mode="2" />
+		<Option compiler="avr-gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/part-3.elf" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="5" />
+				<Option compiler="avr-gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="config" />
+					<Add directory="scmRTOS/Common" />
+					<Add directory="scmRTOS/AVR" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/part-3.elf" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="5" />
+				<Option compiler="avr-gcc" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add directory="config" />
+					<Add directory="scmRTOS/Common" />
+					<Add directory="scmRTOS/AVR" />
+				</Compiler>
+			</Target>
+			<Environment>
+				<Variable name="MCU" value="atmega2560" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mmcu=atmega2560" />
+			<Add option="-DF_CPU=16000000UL" />
+		</Compiler>
+		<Linker>
+			<Add option="-mmcu=atmega2560" />
+			<Add option="-Wl,-Map=$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).map,--cref" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="avr-size --mcu=atmega2560 --format=avr $(TARGET_OUTPUT_FILE)" />
+			<Add after='cmd /c &quot;avr-objdump -h -S $(TARGET_OUTPUT_FILE) &gt; $(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).lss&quot;' />
+			<Add after="avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).hex" />
+			<Add after="avr-objcopy --no-change-warnings -j .eeprom --change-section-lma .eeprom=0 -O ihex $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).eep" />
+		</ExtraCommands>
+		<Unit filename="alarm.h" />
+		<Unit filename="command.cpp" />
+		<Unit filename="command.h" />
+		<Unit filename="config/scmRTOS_CONFIG.h" />
+		<Unit filename="config/scmRTOS_TARGET_CFG.h" />
+		<Unit filename="discr_io.cpp" />
+		<Unit filename="discr_io.h" />
+		<Unit filename="fifo.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="scmRTOS/AVR/OS_Target.h" />
+		<Unit filename="scmRTOS/AVR/OS_Target_asm.S" />
+		<Unit filename="scmRTOS/AVR/OS_Target_cpp.cpp" />
+		<Unit filename="scmRTOS/Common/OS_Kernel.cpp" />
+		<Unit filename="scmRTOS/Common/OS_Kernel.h" />
+		<Unit filename="scmRTOS/Common/OS_Services.cpp" />
+		<Unit filename="scmRTOS/Common/OS_Services.h" />
+		<Unit filename="scmRTOS/Common/scmRTOS.h" />
+		<Unit filename="scmRTOS/Common/scmRTOS_defs.h" />
+		<Unit filename="scmRTOS/Common/usrlib.cpp" />
+		<Unit filename="scmRTOS/Common/usrlib.h" />
+		<Unit filename="timer1.cpp" />
+		<Unit filename="timer1.h" />
+		<Unit filename="uart0.cpp" />
+		<Unit filename="uart0.h" />
+		<Unit filename="version.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

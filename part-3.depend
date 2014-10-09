@@ -1,0 +1,158 @@
+# depslib dependency file v1.0
+1412536386 source:d:\warrior\xakep\iii\src\part-3\main.c
+	<avr/io.h>
+	<avr/builtins.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<util/delay.h>
+	"timer1.h"
+	"discr_io.h"
+	"uart0.h"
+	"command.h"
+
+1403820562 d:\warrior\xakep\iii\src\part-3\timer1.h
+
+1412877711 d:\warrior\xakep\iii\src\part-3\discr_io.h
+
+1412548615 d:\warrior\xakep\iii\src\part-3\uart0.h
+
+1403824938 d:\warrior\xakep\iii\src\part-3\command.h
+
+1333550491 source:d:\warrior\xakep\iii\src\part-3\scmrtos\avr\os_target_asm.s
+	<avr/io.h>
+	"scmRTOS_CONFIG.h"
+	"scmRTOS_TARGET_CFG.h"
+	"OS_Target.h"
+
+1412881794 d:\warrior\xakep\iii\src\part-3\config\scmrtos_config.h
+
+1412880967 d:\warrior\xakep\iii\src\part-3\config\scmrtos_target_cfg.h
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1333550491 d:\warrior\xakep\iii\src\part-3\scmrtos\avr\os_target.h
+	<avr/io.h>
+	<avr/interrupt.h>
+	"scmRTOS_CONFIG.h"
+	"scmRTOS_TARGET_CFG.h"
+	"scmRTOS_defs.h"
+	<OS_Kernel.h>
+
+1412718540 d:\warrior\xakep\iii\src\part-3\scmrtos\common\scmrtos_310_compat.h
+
+1333550491 d:\warrior\xakep\iii\src\part-3\scmrtos\common\scmrtos_defs.h
+
+1333550491 d:\warrior\xakep\iii\src\part-3\scmrtos\common\os_kernel.h
+	<stddef.h>
+	<stdint.h>
+	<usrlib.h>
+	"scmRTOS_extensions.h"
+	<OS_Services.h>
+
+1333550491 d:\warrior\xakep\iii\src\part-3\scmrtos\common\usrlib.h
+	<stdint.h>
+
+1333550491 d:\warrior\xakep\iii\src\part-3\scmrtos\common\os_services.h
+
+1412540734 d:\warrior\xakep\iii\src\part-3\config\scmrtos_extensions.h
+
+1412722557 source:d:\warrior\xakep\iii\src\part-3\scmrtos\avr\os_target_cpp.cpp
+	<scmRTOS.h>
+
+1333550491 d:\warrior\xakep\iii\src\part-3\scmrtos\common\scmrtos.h
+	<stddef.h>
+	<stdint.h>
+	<usrlib.h>
+	<OS_Target.h>
+
+1333550491 source:d:\warrior\xakep\iii\src\part-3\scmrtos\common\os_kernel.cpp
+	"scmRTOS.h"
+
+1333550491 source:d:\warrior\xakep\iii\src\part-3\scmrtos\common\os_services.cpp
+	"scmRTOS.h"
+
+1333550491 source:d:\warrior\xakep\iii\src\part-3\scmrtos\common\usrlib.cpp
+	<usrlib.h>
+
+1403824804 source:d:\warrior\xakep\iii\src\part-3\command.c
+	<avr/pgmspace.h>
+	<stdio.h>
+	<avr/eeprom.h>
+	<util/delay.h>
+	<ctype.h>
+	"discr_io.h"
+
+1403478724 source:d:\warrior\xakep\iii\src\part-3\discr_io.c
+	<avr/io.h>
+	<avr/builtins.h>
+	<avr/eeprom.h>
+	"discr_io.h"
+	<string.h>
+
+1402777102 source:d:\warrior\xakep\iii\src\part-3\fuse.c
+	<avr/io.h>
+
+1403817094 source:d:\warrior\xakep\iii\src\part-3\timer1.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"timer1.h"
+
+1403466986 source:d:\warrior\xakep\iii\src\part-3\uart0.c
+	<stdio.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/builtins.h>
+	"fifo.h"
+
+1403390922 d:\warrior\xakep\iii\src\part-3\fifo.h
+
+1412877753 source:d:\warrior\xakep\iii\src\part-3\main.cpp
+	<avr/io.h>
+	<avr/builtins.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"timer1.h"
+	"discr_io.h"
+	"uart0.h"
+	"command.h"
+	<scmRTOS.h>
+	"alarm.h"
+
+1412881319 source:d:\warrior\xakep\iii\src\part-3\timer1.cpp
+	<avr/io.h>
+	<avr/interrupt.h>
+	"timer1.h"
+	<scmRTOS.h>
+
+1412877227 source:d:\warrior\xakep\iii\src\part-3\command.cpp
+	<avr/pgmspace.h>
+	<stdio.h>
+	<avr/eeprom.h>
+	<ctype.h>
+	"discr_io.h"
+
+1412880043 source:d:\warrior\xakep\iii\src\part-3\discr_io.cpp
+	<avr/io.h>
+	<avr/builtins.h>
+	<avr/eeprom.h>
+	"discr_io.h"
+	<string.h>
+	<scmRTOS.h>
+	"alarm.h"
+
+1412616186 source:d:\warrior\xakep\iii\src\part-3\uart0.cpp
+	<stdio.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/builtins.h>
+	<scmRTOS.h>
+	"fifo.h"
+
+1412623669 d:\warrior\xakep\iii\src\part-3\alarm.h
+

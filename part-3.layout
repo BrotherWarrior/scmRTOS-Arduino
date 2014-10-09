@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="config\scmRTOS_TARGET_CFG.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2278" topLine="41" />
+		</Cursor>
+	</File>
+	<File name="alarm.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="222" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="discr_io.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="895" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="scmRTOS\Common\OS_Kernel.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3363" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="scmRTOS\Common\OS_Kernel.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20857" topLine="571" />
+		</Cursor>
+	</File>
+	<File name="command.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="131" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="discr_io.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5507" topLine="178" />
+		</Cursor>
+	</File>
+	<File name="fifo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="615" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="uart0.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="189" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="scmRTOS\Common\OS_Services.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6182" topLine="173" />
+		</Cursor>
+		<Folding>
+			<Collapse line="187" />
+		</Folding>
+	</File>
+	<File name="scmRTOS\Common\usrlib.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5023" topLine="266" />
+		</Cursor>
+	</File>
+	<File name="config\scmRTOS_CONFIG.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4984" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="scmRTOS\Common\OS_Services.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11388" topLine="201" />
+		</Cursor>
+		<Folding>
+			<Collapse line="57" />
+			<Collapse line="63" />
+			<Collapse line="99" />
+			<Collapse line="126" />
+		</Folding>
+	</File>
+	<File name="scmRTOS\Common\scmRTOS_defs.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3323" topLine="53" />
+		</Cursor>
+	</File>
+	<File name="scmRTOS\AVR\OS_Target_cpp.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3622" topLine="73" />
+		</Cursor>
+	</File>
+	<File name="timer1.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="595" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2571" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="scmRTOS\Common\usrlib.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="358" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="scmRTOS\AVR\OS_Target.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3320" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="scmRTOS\AVR\OS_Target_asm.S" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4863" topLine="164" />
+		</Cursor>
+	</File>
+	<File name="command.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3892" topLine="152" />
+		</Cursor>
+	</File>
+	<File name="uart0.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1546" topLine="65" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
